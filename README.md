@@ -3,17 +3,13 @@ This is the backend of a Voting System that allows users to vote for candidates 
 
 Features
 User Authentication:
-
 Users can sign up and log in using their Aadhar Card Number and password.
 Candidate Management:
-
 Users can view the list of candidates.
 Admins can manage candidates (add, update, delete), but they cannot vote.
 Voting System:
-
 Users can vote for a candidate, but each user can only vote once.
 Admin Role:
-
 Admins can add, update, and delete candidates but cannot vote.
 Technologies Used
 Node.js: Backend runtime environment
@@ -26,36 +22,22 @@ To get the Voting Application backend up and running locally:
 
 Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/Kamalverma01/OnlineVotingSystem.git
+Clone the GitHub repository to your local machine.
 Navigate into the project directory:
 
-bash
-Copy
-Edit
-cd voting_app
+Change to the project directory.
 Install dependencies:
 
-bash
-Copy
-Edit
-npm install
-Create a .env file for environment variables and add the following:
+Install the necessary dependencies using npm.
+Create a .env file:
 
-env
-Copy
-Edit
+Create a .env file and add the following environment variables:
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 Start the application:
 
-bash
-Copy
-Edit
-npm start
+Start the application using npm.
 API Endpoints
 Authentication
 Sign Up
